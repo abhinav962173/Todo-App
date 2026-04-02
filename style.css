@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(144, 208, 238);
+}
+
+button{
+    background-color: rgb(0, 255, 200);
+    color: blue;
+}
+
+li{
+    color: rgb(255, 0, 183);
+}
+
+h1{
+    color:rgb(139, 0, 63)
+}
+
+input{
+    background-color: burlywood;
+    color:red
+}
