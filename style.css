@@ -30,6 +30,7 @@ h1{
     padding: 10px;
     border: 2px solid #ddd;
     border-radius: 8px;
+    flex: 1;
 }
 
 button{
@@ -58,4 +59,20 @@ li{
 
 .delete{
     background: crimson;
+}
+
+.input-box{
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width: 480px){
+
+    .input-box{
+        flex-direction: column;
+    }
+
+    .input-box button{
+        width: 100%;
+    }
 }
